@@ -1,0 +1,52 @@
+.navbar{
+    padding: 2rem 1rem;
+}
+
+.navbar-dark .navbar-brand{
+    color: rgb(238, 238, 238);
+    font-family: system-ui;
+    font-weight: 800;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.navbar-dark .navbar-brand:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.navbar-brand
+    {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+.calc{
+    width: 360px;
+    height: 520px;
+    background: #343a40;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#screen{
+    width: 330px;
+    height: 50px;
+    margin-left: 16px;
+    margin-top: 20px;
+    pointer-events: none;
+}
+
+.btn{
+    width: 60px;
+    height: 45px;
+}
+
+.output{
+    font-size: 33px;
+    font-family: initial;
+    font-weight: 800;
+    
+}
