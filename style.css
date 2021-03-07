@@ -50,3 +50,14 @@
     font-weight: 800;
     
 }
+
+.crd{
+    background-color: rgb(52 58 64);
+
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}

@@ -28,7 +28,7 @@
   <br><br>
 
   <!-- start Calculator -->
-  <div class="main-body">
+  <!-- <div class="main-body">
     <div class="calc">
       <div class="output">
         <input type="text" placeholder="" id="screen">
@@ -37,7 +37,7 @@
         <div class="row" style="padding-left: 54px; padding-top: 50px;">
 
           <div class="backspace">
-            <button onclick="back()" class="btn btn-warning"><i class="fas fa-backspace"></i>
+            <button onclick="back()" class="btn btn-danger"><i class="fas fa-backspace"></i>
             </button>&nbsp;&nbsp;&nbsp;&nbsp;
           </div>
 
@@ -92,11 +92,80 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!--End Calculator -->
 
 <!-- footer -->
+<div class="card crd" style="width: 20rem;">
+  <div class="card-body">
+  <!-- start Calculator -->
+  <div class="main-body">
+    <div class="calc">
+      <div class="output">
+        <input type="text" placeholder="" id="screen">
+      </div>
+      <div class="buttons">
+        <div class="row" style="padding-left: 54px; padding-top: 50px;">
+
+          <div class="backspace">
+            <button onclick="back()" class="btn btn-danger"><i class="fas fa-backspace"></i>
+            </button>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+
+
+          <div class="clear">
+            <button onclick="clearDisplay()" class="btn btn-danger" style="width: 136px;"><i
+                class="fab fa-cuttlefish"></i>
+            </button>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+
+
+          <div class="divide">
+            <button onclick="buttonClick('/')" class="btn btn-warning"><i
+                class="fas fa-divide"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+
+
+
+        </div>
+        <div class="row" style="padding-left: 54px; padding-top: 38px;">
+          <button onclick="buttonClick(7)" class="btn"><b>7</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick(8)" class="btn"><b>8</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick(9)" class="btn"><b>9</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick('*')" class="btn btn-warning"><i
+              class="fas fa-times"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </div>
+        <div class="row" style="padding-left: 54px; padding-top: 38px;">
+          <button onclick="buttonClick(4)" class="btn"><b>4</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick(5)" class="btn"><b>5</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick(6)" class="btn"><b>6</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick('-')" class="btn btn-warning"><i
+              class="fas fa-minus"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </div>
+
+        <div class="row" style="padding-left: 54px; padding-top: 38px;">
+          <button onclick="buttonClick(1)" class="btn"><b>1</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick(2)" class="btn"><b>2</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick(3)" class="btn"><b>3</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="buttonClick('+')" class="btn btn-warning"><i
+              class="fas fa-plus"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        </div>
+
+        <div class="row" style="padding-left: 54px; padding-top: 32px; ">
+          <button onclick="buttonClick(0)" class="btn"><b>0</b></button>&nbsp;&nbsp;&nbsp;&nbsp;
+          <button onclick="equelto()" class="btn btn-primary" style="width: 213px;"><i
+              class="fas fa-equals"></i></i></button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        </div>
+      </div>
+    </div>
+  </div>  </div>
+</div>
 
 <!-- end footer -->
 
